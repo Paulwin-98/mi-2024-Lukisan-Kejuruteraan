@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="output.css" rel="stylesheet">
+    <title>Index</title>
+    <style>
+        .img-cover {
+            margin-top: 5%;
+            margin-bottom: 1rem;
+            /* Tailwind's mb-4 */
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 0.5rem;
+            /* Tailwind's rounded-lg */
+            width: 90%;
+            align-items: center;
+        }
+
+        .mula-button {
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80px;
+            height: 40px;
+            padding-top: 0.5rem;
+            /* py-2 */
+            padding-bottom: 0.5rem;
+            padding-left: 0.625rem;
+            /* px-2.5 */
+            padding-right: 0.625rem;
+            border-radius: 9999px;
+            /* rounded-full */
+            background-color: #f59e0b;
+            /* bg-amber-500 */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: transform 0.2s, background-color 0.2s;
+        }
+
+        .mula-button:hover {
+            transform: scale(1.1);
+            /* hover:scale-110 */
+            background-color: #94a3b8;
+            /* hover:bg-slate-400 */
+        }
+
+        @media (min-width: 640px) and (orientation: landscape) {
+            .img-cover {
+                margin-top: 0.5rem;
+                margin-bottom: 0.8rem;
+                /* Tailwind's mb-4 */
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 0.5rem;
+                /* Tailwind's rounded-lg */
+                width: 65%;
+                align-items: center;
+            }
+
+            .mula-button {
+                position: relative;
+                margin-left: auto;
+                margin-right: auto;
+                width: 70px;
+                height: 30px;
+                padding-top: 0.5rem;
+                /* py-2 */
+                padding-bottom: 0.5rem;
+                padding-left: 0.625rem;
+                /* px-2.5 */
+                padding-right: 0.625rem;
+                border-radius: 9999px;
+                /* rounded-full */
+                background-color: #f59e0b;
+                /* bg-amber-500 */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                transition: transform 0.2s, background-color 0.2s;
+            }
+
+            .mula-button:hover {
+                transform: scale(1.1);
+                /* hover:scale-110 */
+                background-color: #94a3b8;
+                /* hover:bg-slate-400 */
+            }
+        }
+
+        @media (min-width: 768px) and (orientation: portrait) {
+            .img-cover {
+                margin-top: 3rem;
+                margin-bottom: 1rem;
+                /* Tailwind's mb-4 */
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 0.5rem;
+                /* Tailwind's rounded-lg */
+                width: 90%;
+                align-items: center;
+            }
+
+            .mula-button {
+                position: relative;
+                margin-left: auto;
+                margin-right: auto;
+                width: 90px;
+                height: 50px;
+                padding-top: 0.5rem;
+                /* py-2 */
+                padding-bottom: 0.5rem;
+                padding-left: 0.625rem;
+                /* px-2.5 */
+                padding-right: 0.625rem;
+                border-radius: 9999px;
+                /* rounded-full */
+                background-color: #f59e0b;
+                /* bg-amber-500 */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                transition: transform 0.2s, background-color 0.2s;
+            }
+
+            .mula-button:hover {
+                transform: scale(1.1);
+                /* hover:scale-110 */
+                background-color: #94a3b8;
+                /* hover:bg-slate-400 */
+            }
+        }
+
+        @media (min-width: 768px) and (orientation: landscape) {
+            .img-cover {
+                margin-top: 0rem;
+                margin-bottom: 1rem;
+                /* Tailwind's mb-4 */
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 0.5rem;
+                /* Tailwind's rounded-lg */
+                width: 50%;
+                align-items: center;
+            }
+
+            .mula-button {
+                position: relative;
+                margin-left: auto;
+                margin-right: auto;
+                width: 70px;
+                height: 30px;
+                padding-top: 0.5rem;
+                /* py-2 */
+                padding-bottom: 0.5rem;
+                padding-left: 0.625rem;
+                /* px-2.5 */
+                padding-right: 0.625rem;
+                border-radius: 9999px;
+                /* rounded-full */
+                background-color: #f59e0b;
+                /* bg-amber-500 */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                transition: transform 0.2s, background-color 0.2s;
+            }
+
+            .mula-button:hover {
+                transform: scale(1.1);
+                /* hover:scale-110 */
+                background-color: #94a3b8;
+                /* hover:bg-slate-400 */
+            }
+        }
+
+        @media (min-width: 1024px) and (orientation: portrait) {
+            .img-cover {
+                margin-top: 5rem;
+                margin-bottom: 2rem;
+                /* Tailwind's mb-4 */
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 0.5rem;
+                /* Tailwind's rounded-lg */
+                width: 90%;
+                align-items: center;
+            }
+
+            .mula-button {
+                position: relative;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100px;
+                height: 60px;
+                padding-top: 0.5rem;
+                /* py-2 */
+                padding-bottom: 0.5rem;
+                padding-left: 0.625rem;
+                /* px-2.5 */
+                padding-right: 0.625rem;
+                border-radius: 9999px;
+                /* rounded-full */
+                background-color: #f59e0b;
+                /* bg-amber-500 */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                transition: transform 0.2s, background-color 0.2s;
+            }
+
+            .mula-button:hover {
+                transform: scale(1.1);
+                /* hover:scale-110 */
+                background-color: #94a3b8;
+                /* hover:bg-slate-400 */
+            }
+        }
+
+        @media (min-width: 1024px) and (orientation: landscape) {
+            .img-cover {
+                margin-top: 0rem;
+                margin-bottom: 1.5rem;
+                /* Tailwind's mb-4 */
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 0.5rem;
+                /* Tailwind's rounded-lg */
+                width: 90%;
+                align-items: center;
+            }
+
+            .mula-button {
+                position: relative;
+                margin-left: auto;
+                margin-right: auto;
+                width: 90px;
+                height: 50px;
+                padding-top: 0.5rem;
+                /* py-2 */
+                padding-bottom: 0.5rem;
+                padding-left: 0.625rem;
+                /* px-2.5 */
+                padding-right: 0.625rem;
+                border-radius: 9999px;
+                /* rounded-full */
+                background-color: #f59e0b;
+                /* bg-amber-500 */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                transition: transform 0.2s, background-color 0.2s;
+            }
+
+            .mula-button:hover {
+                transform: scale(1.1);
+                /* hover:scale-110 */
+                background-color: #94a3b8;
+                /* hover:bg-slate-400 */
+            }
+        }
+
+        @media (min-width: 1280px) and (orientation: landscape) {
+            .img-cover {
+                margin-top: 0rem;
+                margin-bottom: 1.5rem;
+                /* Tailwind's mb-4 */
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 0.5rem;
+                /* Tailwind's rounded-lg */
+                width: 60%;
+                align-items: center;
+            }
+
+            .mula-button {
+                position: relative;
+                margin-left: auto;
+                margin-right: auto;
+                width: 90px;
+                height: 50px;
+                padding-top: 0.5rem;
+                /* py-2 */
+                padding-bottom: 0.5rem;
+                padding-left: 0.625rem;
+                /* px-2.5 */
+                padding-right: 0.625rem;
+                border-radius: 9999px;
+                /* rounded-full */
+                background-color: #f59e0b;
+                /* bg-amber-500 */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                transition: transform 0.2s, background-color 0.2s;
+            }
+
+            .mula-button:hover {
+                transform: scale(1.1);
+                /* hover:scale-110 */
+                background-color: #94a3b8;
+                /* hover:bg-slate-400 */
+            }
+
+        }
+    </style>
+
+    <script>
+        function delayedNavigation(route) {
+            setTimeout(() => {
+                window.location.href = route;
+            }, 400); // 400ms delay
+        }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="output.css" rel="stylesheet">
+</head>
+
+<body class="">
+    <div class="relative bg-center bg-cover h-screen w-full"
+        style="background-image: url('images/main/lk-bg-main.gif');">
+        <div class="relative h-screen w-full lg:p-24 p-6 md:p-12">
+            <div class="relative h-full">
+                <img class="img-cover" src="images/main/coverpage.png" alt="Cover">
+                <a onclick="delayedNavigation('mainmenu.html')" class="mula-button">
+                    <span class="text-center font-[WakNan] text-sm text-gray-200 ">Mula</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

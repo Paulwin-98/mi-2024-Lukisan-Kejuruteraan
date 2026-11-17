@@ -1,0 +1,19 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.bg-sidebar{
+    background-color: black;
+    opacity: 50%;
+}
+
+@font-face {
+    font-family: 'waknan';
+    src: url('WakNan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-[waknan] {
+    font-family: 'waknan';
+}
